@@ -1,0 +1,32 @@
+
+
+
+body {
+  background-color: #ad0ea8;
+}
+p,a,li {
+  color: white;
+  font-family: Calibtr, Ariel, sans-serif
+}
+h1,h2 {
+  color: white;
+  font-family: Bombshell Pro
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  color: yellow;
+}
+li:hover {
+  color: black;
+}
