@@ -5,22 +5,24 @@
 
 
 body {
-  background-color: #ad0ea8;
+  background-color: #A8DCD1;
   padding: 30px;
 }
 p,a {
-  color: white;
+  color: #06070E;
   font-family: Calibtr, Ariel, sans-serif
 }
-h1,h2,li  {
-  color: white;
+li  {
+  color: #06070E;
   font-family: Bombshell Pro
 }
-h1 {
+h1,h2 {
   margin-bottom: 20px;
   margin-top: 20px;
   font-family: Brand;
+  color: #F9627D;
 }
+
 
 li {
   margin-top: 8px;
@@ -32,15 +34,16 @@ a:link {
 }
 a:hover {
   text-decoration: underline;
-  color: #000000;
+  color: #F9627D;
 }
 a:visited {
   text-decoration: none;
 }
 
-ul {
-  color: yellow;
-  padding-left: 15px;
+li {
+  color: #F9627D;
+  padding-left: 5px;
+  margin-left: 12px;
 }
 li:hover {
   color: black;
@@ -58,4 +61,28 @@ h2 {
 .caption {
   font-size: 16pt;
   color: yellow;
+}
+
+.left-column {
+  background-color:;
+
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.left-column {
+  background-color:
+}
+
+.main-container {
+
+}
+
+.center-text {
+  text-align: center;
 }
