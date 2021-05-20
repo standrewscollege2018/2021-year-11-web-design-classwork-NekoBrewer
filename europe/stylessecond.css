@@ -1,18 +1,32 @@
-
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
 
 body {
   background-color: #ad0ea8;
+  padding: 30px;
 }
-p,a,li {
+p,a {
   color: white;
   font-family: Calibtr, Ariel, sans-serif
 }
-h1,h2 {
+h1,h2,li  {
   color: white;
   font-family: Bombshell Pro
 }
+h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Brand;
+}
 
+li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+}
 a:link {
   text-decoration: none;
 }
@@ -26,7 +40,22 @@ a:visited {
 
 ul {
   color: yellow;
+  padding-left: 15px;
 }
 li:hover {
   color: black;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: Brand;
+  src: url(fonts/Brand.otf);
+}
+
+
+.caption {
+  font-size: 16pt;
+  color: yellow;
 }
