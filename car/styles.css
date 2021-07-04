@@ -1,0 +1,18 @@
+body {
+  background-color: #A8DCD1;
+  padding: 30px;
+}
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.card {
+  background-color: #F9627D;
+  border: black solid 2px;
+  border-radius: 20px;
+}
+.cardetails {
+
+}
